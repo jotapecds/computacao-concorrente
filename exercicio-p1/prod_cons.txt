@@ -1,0 +1,8 @@
+Implemente uma solução para o problema dos produtores e 
+consumidores com a seguinte variação do problema: a cada execução de um produtor, ele carrega o
+buffer inteiro, e não apenas um único item (para isso ele deve esperar o buffer ficar completamente
+vazio). O consumidor segue a lógica convencional, isto é, consome um item de cada vez. A aplicação
+poderá ter mais de um produtor e mais de um consumidor. Minimize o uso das chamadas de desbloqueio 
+(signal e broadcast). Use broadcast apenas quando estritamente necessário. 
+Escreva o código de forma legı́vel, organizada e com comentários.
+
